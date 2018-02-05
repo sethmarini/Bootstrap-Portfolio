@@ -1,0 +1,143 @@
+.navbar-header {
+
+  height: 30px;
+
+}
+
+h5 {
+
+  color: white;
+
+}
+
+h2, h3, h4, p  {
+
+  background-color: white;
+  color: black;
+
+}
+
+header {
+
+  background-color: #116cff;
+
+}
+
+html,body{
+
+  height: 100%;
+
+}
+
+ul.footer {
+
+  margin-top: 10px;
+  text-align: center;
+}
+
+ul.footer li {
+
+  color: white;
+  display: inline-block;
+}
+
+#footer {
+
+  bottom: 50px;
+  height: 120px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  background-color: #116cff;
+}
+
+
+.social {
+
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+
+  margin-right: 0;
+}
+
+.auth-image {
+
+  background-color: #116cff;
+
+}
+
+/*Portfolio*/
+
+.work {
+  position: relative;
+  float: left;
+  width: 20%;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #116cff;
+  border-bottom: 0;
+}
+
+/*Contact Page*/
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label, input[type=text], input[type=email], textarea {
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  
+  input[type=text], input[type=email], textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid gray;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    background: #116cff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+
+  }
